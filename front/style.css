@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(190, 137, 192);
+    color: rgb(0, 0, 0);
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.valido {
+    color: green;
+    font-weight: bold;
+}
+
+.invalido {
+    color: red;
+    font-weight: bold;
+}
